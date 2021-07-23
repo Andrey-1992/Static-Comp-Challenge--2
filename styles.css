@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.grid-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  /* gap: 1%; */
+}
+
+.grid-container section {
+  border: 2px solid black;
+}
+
+aside {
+  border: 2px solid black;
+  grid-row-start: 1;
+  grid-row-end: 9;
+}
+
+nav {
+  border: 2px solid black;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
+
+header {
+  border: 2px solid black;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
+
+main {
+  border: 2px solid black;
+  grid-row-start: 3;
+  grid-row-end: 9;
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
