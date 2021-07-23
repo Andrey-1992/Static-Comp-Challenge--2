@@ -1,13 +1,13 @@
 body {
   margin: 0;
 }
-
+/* Main Grid Layouts */
 .grid-container {
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: 8% repeat(7, 1fr);
   /* gap: 1%; */
 }
 
@@ -15,30 +15,88 @@ body {
   border: 2px solid black;
 }
 
+
+/* Aside section  */
 aside {
   border: 2px solid black;
   grid-row-start: 1;
   grid-row-end: 9;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(14, 1fr);
 }
 
+.profile-info {
+  grid-row-start: 1;
+  grid-row-end: span 2;
+
+}
+
+.main-info {
+  grid-row-start: 3;
+  grid-row-end: span 3;
+}
+
+.admin-info {
+  grid-row-start: 6;
+  grid-row-end: span 3;
+
+}
+
+.categories-info {
+  grid-row-start: 9;
+  grid-row-end: span 6;
+}
+
+
+/* Nav Section */
 nav {
   border: 2px solid black;
   grid-row-start: 1;
   grid-column-start: 2;
   grid-column-end: 7;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
 }
 
+.menu-btn {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.search-input {
+  grid-column-start: 2;
+  grid-column-end: span 10;
+}
+
+.user-btn {
+  grid-column-start: 12;
+  grid-column-end: 13;
+}
+
+.calendar-btn {
+  grid-column-start: 13;
+  grid-column-end: 14;
+}
+
+.sall-menu-btn {
+  grid-column-start: 14;
+  grid-column-end: 15;
+}
+
+/* Header Section */
 header {
   border: 2px solid black;
   grid-row-start: 2;
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: span 5;
 }
 
+/* Main Section */
 main {
   border: 2px solid black;
   grid-row-start: 3;
   grid-row-end: 9;
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: span 5;
 }
