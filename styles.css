@@ -55,6 +55,7 @@ aside {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   text-align: left;
+  /* border-bottom: none; */
 }
 
 .text-nav-section {
@@ -195,4 +196,260 @@ main {
   grid-row-end: 9;
   grid-column-start: 2;
   grid-column-end: span 5;
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.charts-view-section {
+  border: 2px solid black;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: span 6;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.chart-ab-section {
+  border: 1% solid black;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr)
+}
+
+.applicants-info {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+}
+
+.interviews-info {
+  grid-column-start: 7;
+  grid-column-end: span 3;
+}
+
+.forwards-info {
+  grid-column-start: 12;
+  grid-column-end: span 3;
+}
+
+.week-info {
+  grid-column-start: 18;
+  grid-column-end: span 5;
+}
+
+.chart-btns-section {
+  border: 2px solid black;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr)
+}
+
+.text-view-charts {
+  grid-column-start: 3;
+  grid-column-end: span 4;
+}
+
+.text-week-charts {
+  grid-column-start: 10;
+  grid-column-end: span 4;
+}
+
+
+.div-main-section {
+  border: 2px solid black;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: span 6;
+}
+
+.form-view-section {
+  border: 2px solid black;
+  grid-row-start: 5;
+  grid-row-end: span 8;
+  grid-column-start: 1;
+  grid-column-end: span 6;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 3%; */
+}
+
+.user-form {
+  border: 2px solid black;
+  margin: 2%  5% 2% 5%;
+  /* margin-left: 5%; */
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.form-header {
+  border: 2px solid black;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  /* padding: 0; */
+}
+
+.position-info {
+  border: 2px solid black;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.location-info {
+  border: 2px solid black;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.employ-type-info {
+  border: 2px solid black;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.experience-info {
+  border: 2px solid black;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.status-info {
+  border: 2px solid black;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.description-info {
+  border: 2px solid black;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.hiring-info {
+  border: 2px solid black;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.salary-info {
+  border: 2px solid black;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+h5 {
+  margin: 5% 0 0 0;
+  padding: 0;
+}
+
+.form-text {
+  margin: 0;
+  padding: 0;
+}
+
+.form-text-icon {
+  margin: 5% 0 0 0;
+  padding: 0;
+}
+
+
+
+
+
+.footer {
+  /* border: 2px solid black; */
+  margin: 5%;
+  /* margin-right: 5%; */
+  grid-column-start: 3;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  /* grid-template-rows: repeat(14, 1fr);
+  grid-gap: 2%; */
+}
+
+.facebook-prof {
+  background: rgb(74,110,192);
+  color: #fff;
+}
+
+.twitter-prof {
+  background: rgb(3,168,240);
+  color: #fff;
+  margin-top: 5%;
+}
+
+.linkedin-prof {
+  background: rgb(5,128,188);
+  color: #fff;
+  margin-top: 5%;
+}
+
+.link-job-icon {
+  /* background: rgb(5,128,188); */
+  color: #fff;
+  margin-top: 5%;
+}
+
+.widget-icon {
+  /* background: rgb(5,128,188); */
+  color: #fff;
+  margin-top: 5%;
+}
+
+.send-email-icon {
+  /* background: rgb(5,128,188); */
+  color: #fff;
+  margin-top: 5%;
 }
