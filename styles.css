@@ -143,8 +143,14 @@ nav {
 
 
 input {
+  background: none;
   width: 100%;
-border: none;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  color: rgb(160,89,79);
 }
 
 .user-icon {
