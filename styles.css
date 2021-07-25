@@ -111,6 +111,7 @@ nav {
 .menu-icon:hover {
   background: rgb(160,89,79);
   color: #fcfaf9;
+  cursor: pointer;
 }
 
 .search-icon {
@@ -127,6 +128,7 @@ nav {
 .search-icon:hover {
   background: rgb(160,89,79);
   color: #fcfaf9;
+  cursor: pointer;
 }
 
 .search-input {
@@ -159,6 +161,7 @@ border: none;
 .user-icon:hover {
   background: rgb(160,89,79);
   color: #fcfaf9;
+  cursor: pointer;
 }
 
 .calendar-icon {
@@ -175,6 +178,7 @@ border: none;
 .calendar-icon:hover {
   background: rgb(160,89,79);
   color: #fcfaf9;
+  cursor: pointer;
 }
 
 .all-menu-icon {
@@ -191,6 +195,7 @@ border: none;
 .all-menu-icon:hover {
   background: rgb(160,89,79);
   color: #fcfaf9;
+  cursor: pointer;
 }
 
 /* Header Section */
@@ -216,18 +221,205 @@ header {
   padding-bottom: 1%;
 }
 
-.customer-view-options {
-  display: flex;
-}
 
 .customer-options-text {
   padding-left: 2%;
   margin: 1%;
 }
 
+.customer-view-options {
+  display: flex;
+  padding-left: 2%;
+
+}
+
+ /* Hover Sections */
+.summary-options-text {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.50rem;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.summary-options-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(160,89,79);
+  transition: width 0.25s ease-out;
+}
+
+.summary-options-text:hover::before {
+  width: 100%;
+  left: auto;
+  right: 0;
+  cursor: pointer;
+}
+
+.applicants-options-text {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.50rem;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.applicants-options-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(160,89,79);
+  transition: width 0.25s ease-out;
+}
+
+.applicants-options-text:hover::before {
+  width: 100%;
+  left: auto;
+  right: 0;
+  cursor: pointer;
+}
+
+.board-options-text {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.50rem;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.board-options-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(160,89,79);
+  transition: width 0.25s ease-out;
+}
+
+.board-options-text:hover::before {
+  width: 100%;
+  left: auto;
+  right: 0;
+  cursor: pointer;
+}
+
+.interviews-options-text {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.50rem;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.interviews-options-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(160,89,79);
+  transition: width 0.25s ease-out;
+}
+
+.interviews-options-text:hover::before {
+  width: 100%;
+  left: auto;
+  right: 0;
+  cursor: pointer;
+}
+
+.activity-options-text {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.50rem;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.activity-options-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(160,89,79);
+  transition: width 0.25s ease-out;
+}
+
+.activity-options-text:hover::before {
+  width: 100%;
+  left: auto;
+  right: 0;
+  cursor: pointer;
+}
+
+.broadcast-options-text {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.50rem;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.broadcast-options-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(160,89,79);
+  transition: width 0.25s ease-out;
+}
+
+.broadcast-options-text:hover::before {
+  width: 100%;
+  left: auto;
+  right: 0;
+  cursor: pointer;
+}
+
+.notifications-options-text {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.50rem;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.notifications-options-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(160,89,79);
+  transition: width 0.25s ease-out;
+}
+
+.notifications-options-text:hover::before {
+  width: 100%;
+  left: auto;
+  right: 0;
+  cursor: pointer;
+}
+
+
+
+
 .customer-icons {
-  /* border: 1px solid #bab1ae; */
-  /* width: 50%; */
   display: flex;
   align-items: center;
   padding: 1%;
