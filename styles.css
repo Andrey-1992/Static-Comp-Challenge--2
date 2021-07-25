@@ -720,43 +720,76 @@ h5 {
   /* margin-right: 5%; */
   grid-column-start: 3;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
   display: grid;
   /* grid-template-rows: repeat(14, 1fr);
   grid-gap: 2%; */
 }
 
 .facebook-prof {
+  width: 80%;
+  margin: 3% 10% 3% 10%;
   background: rgb(74,110,192);
   color: #fff;
 }
 
+.facebook-prof:hover {
+  opacity: 0.7;
+  width: 85%;
+  margin: 2% 8% 2% 8%;
+  cursor: pointer;
+}
+
 .twitter-prof {
+  margin: 3% 10% 3% 10%;
   background: rgb(3,168,240);
   color: #fff;
   margin-top: 5%;
 }
 
+.twitter-prof:hover {
+  opacity: 0.7;
+  width: 85%;
+  margin: 2% 8% 2% 8%;
+  cursor: pointer;
+}
+
 .linkedin-prof {
+  margin: 3% 10% 3% 10%;
   background: rgb(5,128,188);
   color: #fff;
   margin-top: 5%;
 }
 
+.linkedin-prof:hover {
+  opacity: 0.7;
+  width: 85%;
+  margin: 2% 8% 2% 8%;
+  cursor: pointer;
+}
+
 .link-job-icon {
-  /* background: rgb(5,128,188); */
+  margin: 3% 10% 3% 10%;
+  background: rgb(160,89,79);
   color: #fff;
   margin-top: 5%;
 }
 
-.widget-icon {
-  /* background: rgb(5,128,188); */
+.link-job-icon:hover {
+  opacity: 0.7;
+  width: 85%;
+  margin: 2% 8% 2% 8%;
+  cursor: pointer;
+}
+
+/* .widget-icon {
+  background: rgb(160,89,79);
   color: #fff;
   margin-top: 5%;
 }
 
 .send-email-icon {
-  /* background: rgb(5,128,188); */
+  background: rgb(160,89,79);
   color: #fff;
   margin-top: 5%;
-}
+} */
