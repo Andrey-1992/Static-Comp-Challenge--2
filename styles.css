@@ -12,13 +12,14 @@ body {
 }
 
 .grid-container section {
-  border: 2px solid black;
+  border: 1px solid #bab1ae;
 }
 
 
 /* Aside section  */
 aside {
-  border: 2px solid black;
+  background-color: rgb(160,89,79);
+  /* border: 1px  solid #fcfaf9; */
   grid-row-start: 1;
   grid-row-end: 9;
   text-align: center;
@@ -31,6 +32,7 @@ aside {
   grid-row-end: span 2;
   display: grid;
   grid-template-rows: repeat(6, 1fr);
+  color: rgb(232,218,158);
 }
 
 .main-info {
@@ -39,6 +41,7 @@ aside {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   text-align: left;
+  color: rgb(232,218,158);
 }
 
 .admin-info {
@@ -47,6 +50,7 @@ aside {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   text-align: left;
+  color: rgb(232,218,158);
 }
 
 .categories-info {
@@ -55,7 +59,8 @@ aside {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   text-align: left;
-  /* border-bottom: none; */
+  color: rgb(232,218,158);
+  border-bottom: none;
 }
 
 .text-nav-section {
@@ -149,6 +154,7 @@ border: none;
 
 /* Header Section */
 header {
+  background: #fcfaf9;
   border: 2px solid black;
   grid-row-start: 2;
   grid-column-start: 2;
@@ -192,6 +198,7 @@ header {
 /* Main Section */
 main {
   border: 2px solid black;
+  background: rgb(238,238,238);
   grid-row-start: 3;
   grid-row-end: 9;
   grid-column-start: 2;
@@ -280,6 +287,7 @@ main {
 .user-form {
   border: 2px solid black;
   margin: 2%  5% 2% 5%;
+  background: #fcfaf9;
   /* margin-left: 5%; */
   grid-column-start: 1;
   grid-column-end: 3;
@@ -289,15 +297,17 @@ main {
 }
 
 .form-header {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
-  /* padding: 0; */
+  background: #bab1ae;
+  color: #fcfaf9;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .position-info {
@@ -308,7 +318,8 @@ main {
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .location-info {
@@ -319,7 +330,8 @@ main {
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .employ-type-info {
@@ -330,7 +342,8 @@ main {
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .experience-info {
@@ -341,7 +354,8 @@ main {
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .status-info {
@@ -352,7 +366,8 @@ main {
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .description-info {
@@ -363,7 +378,8 @@ main {
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .hiring-info {
@@ -374,7 +390,8 @@ main {
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 .salary-info {
@@ -385,7 +402,8 @@ main {
   grid-column-end: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  text-align: left;
+  padding-left: 5%;
 }
 
 h5 {
