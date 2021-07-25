@@ -226,10 +226,60 @@ header {
 }
 
 .customer-icons {
+  /* border: 1px solid #bab1ae; */
+  /* width: 50%; */
   display: flex;
-  /* align-content: center; */
-  padding: 2%;
+  align-items: center;
+  padding: 1%;
   margin-left: 50%
+}
+
+.open-icon {
+  border: 1px solid #bab1ae;
+  margin: 10%;
+  padding: 5% 15% 7% 7%;
+  border-radius: 50%;
+}
+
+.open-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
+}
+
+.tag-icon {
+  border: 1px solid #bab1ae;
+  margin: 10%;
+  padding: 5% 15% 5% 10%;
+  border-radius: 50%;
+}
+
+.tag-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
+}
+
+.pencil-icon {
+  border: 1px solid #bab1ae;
+  margin: 10%;
+  padding: 5% 15% 5% 10%;
+  border-radius: 50%;
+}
+
+.pencil-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
+}
+
+.trash-icon {
+  border: 1px solid #bab1ae;
+  margin: 10%;
+  padding: 5% 15% 5% 10%;
+  border-radius: 50%;
+}
+
+.trash-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
 }
 
 
