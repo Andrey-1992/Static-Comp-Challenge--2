@@ -57,6 +57,7 @@ aside {
   grid-template-rows: repeat(6, 1fr);
   text-align: left;
   color: #fcfaf9;
+  font-size: 70%;
 }
 
 .admin-info {
@@ -67,6 +68,7 @@ aside {
   text-align: left;
   /* color: rgb(232,218,158); */
   color: #fcfaf9;
+  font-size: 70%;
 }
 
 .categories-info {
@@ -77,6 +79,7 @@ aside {
   text-align: left;
   /* color: rgb(232,218,158); */
   color: #fcfaf9;
+  font-size: 70%;
 }
 
 
@@ -105,6 +108,11 @@ nav {
   padding-left: 33%;
 }
 
+.menu-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
+}
+
 .search-icon {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -116,6 +124,11 @@ nav {
   padding-left: 33%;
 }
 
+.search-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
+}
+
 .search-input {
   grid-column-start: 3;
   grid-column-end: span 9;
@@ -125,6 +138,7 @@ nav {
   align-items: center;
   padding-left: 3%;
 }
+
 
 input {
   width: 100%;
@@ -142,6 +156,11 @@ border: none;
   padding-left: 33%;
 }
 
+.user-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
+}
+
 .calendar-icon {
   grid-column-start: 13;
   grid-column-end: 14;
@@ -153,6 +172,11 @@ border: none;
   padding-left: 33%;
 }
 
+.calendar-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
+}
+
 .all-menu-icon {
   grid-column-start: 14;
   grid-column-end: 15;
@@ -162,6 +186,11 @@ border: none;
   align-content: center;
   align-items: center;
   padding-left: 33%;
+}
+
+.all-menu-icon:hover {
+  background: rgb(160,89,79);
+  color: #fcfaf9;
 }
 
 /* Header Section */
