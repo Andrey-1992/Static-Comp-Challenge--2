@@ -13,8 +13,7 @@
 This is an interactive website that looking to display HTML and CSS incorporating responsive design. The challenge was to recreate a webpage based off of a provided static comp and provide a customized form from this website.
 
 Original Comp: 
-![alt text](https://github.com/Andrey-1992/Static-Comp-Challenge--2/blob/main/assets/project-planning/Screen%20Shot%202021-07-24%20at%201.49.19%20PM.png>
-)
+![Comp Specs](https://frontend.turing.edu/projects/static-comp-challenge.html)
 
 ## New Comp  
 ![recording](https://user-images.githubusercontent.com/78002374/127030845-9481182a-55cc-4128-b379-195d862b87bb.gif)>
