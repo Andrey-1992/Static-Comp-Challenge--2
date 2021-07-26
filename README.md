@@ -16,8 +16,8 @@ Original Comp:
 ![alt text](<img width="671" alt="original-comp" src="https://user-images.githubusercontent.com/78002374/127030769-9c26daa8-bcc8-45be-be96-94d02c03c86d.png">
 )
 
-## Links  
-static-comp<![recording](https://user-images.githubusercontent.com/78002374/127030845-9481182a-55cc-4128-b379-195d862b87bb.gif)>
+## New Comp  
+![recording](https://user-images.githubusercontent.com/78002374/127030845-9481182a-55cc-4128-b379-195d862b87bb.gif)>
 
 
 ## Setup
