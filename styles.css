@@ -93,6 +93,16 @@ aside {
   font-size: 70%;
 }
 
+.text-nav-section-selected {
+  opacity: 0.3;
+  margin-left: 5%;
+}
+
+.text-nav-section:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
 
 /* Nav Section */
 nav {
