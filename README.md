@@ -14,6 +14,8 @@ This is an interactive website that looking to display HTML and CSS incorporatin
 
 Original Comp: 
 [Comp Specs & Instructions](https://frontend.turing.edu/projects/static-comp-challenge.html)
+<img width="671" alt="original-comp" src="https://user-images.githubusercontent.com/78002374/127031555-34247aa8-310a-4faa-b406-36a327ee2771.png">
+
 
 ## New Comp  
 ![recording](https://user-images.githubusercontent.com/78002374/127030845-9481182a-55cc-4128-b379-195d862b87bb.gif)>
