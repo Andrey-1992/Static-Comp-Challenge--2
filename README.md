@@ -1,4 +1,4 @@
-<h1 align="center">Static Comp Challenge #2(Module 2)</h1>
+<h1 align="center">Static Comp Challenge #2</h1>
 
 ## Table of Contents
 * [Introduction](#introduction)
