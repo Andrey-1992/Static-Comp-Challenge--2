@@ -9,7 +9,7 @@
 * [Contributors](#Contributors)
 * [Languages](#Languages)
 
-[Website]https://andrey-1992.github.io/Static-Comp-Challenge--2/)
+[Website](https://andrey-1992.github.io/Static-Comp-Challenge--2/)
 ## Introduction
 This is an interactive website that looking to display HTML and CSS incorporating responsive design. The challenge was to recreate a webpage based off of a provided static comp and provide a customized form from this website.
 ### [Comp Specs & Instructions](https://frontend.turing.edu/projects/static-comp-challenge.html)
