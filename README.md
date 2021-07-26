@@ -2,8 +2,8 @@
 
 ## Table of Contents
 * [Introduction](#introduction)
-* [Original Comp](#Original Comp)
-* [New Comp](#New Comp)
+* [Original Comp](#original)
+* [New Comp](#new)
 * [Setup](#Setup)
 * [Future Additions](#Future-Additions)
 * [Contributors](#Contributors)
